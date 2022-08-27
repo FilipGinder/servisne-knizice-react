@@ -1,0 +1,210 @@
+@import "./variable.scss";
+
+
+body{
+
+	background-color: $boja_bela;
+
+}
+.input2{
+  width: 100%;
+  }
+.linkovi{
+  color:$boja_crna;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+#prikaz_klijenata_za_izm_u_tabeli{
+  width: $proc_100;
+}
+.div_klijent_izm {
+  background-color: $boja_1;
+}
+#unique_key_izm{
+  color: $boja_crvena;
+}
+// #vozila{
+// 	border: 2px solid $boja_crvena;
+// }
+.div_vozilo_izm{
+	text-align: $centar;
+	background-color: $boja_2;
+}
+.div_dod_novo_vozilo_izm{
+	background-color: $boja_3;
+}
+#servisi_div_okvir{
+	background-color: $boja_4;
+  padding-bottom: 10px;
+}
+.servisi_div_okvir{
+	background-color: $boja_3;
+  padding-bottom: 10px;
+}
+
+.novi_servis_izm{
+  background-color: $boja_5;
+}
+
+#novi_servisi_div{
+	text-align: $centar;
+}
+
+#login_box_ceo{
+    width: $proc_100;
+    text-align: -webkit-center;
+    margin: 0;
+    position: absolute;
+    top: $proc_50;
+    left: $proc_50;
+    -ms-transform: translate(-$proc_50, -$proc_50);
+    transform: translate(-$proc_50, -$proc_50);
+}
+#login_box{
+	
+    background-color: $boja_bela;
+    max-width: 28rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border-radius: 10px;
+    text-align: left;
+}
+
+#regist_box_ceo{
+    width: $proc_100;
+    text-align: -webkit-center;
+    margin: 0;
+    position: absolute;
+    top: $proc_50;
+    left: $proc_50;
+    -ms-transform: translate(-$proc_50, -$proc_50);
+    transform: translate(-$proc_50, -$proc_50);
+}
+#regist_box{
+  
+    background-color: $boja_bela;
+    max-width: 28rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border-radius: 10px;
+    text-align: left;
+}
+
+
+
+#div_token{
+  display: $none;
+}
+
+
+
+
+input[type=text] {
+  
+  width: $proc_100;
+height: 45px;
+border-radius: 5px;
+
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid gray;
+}
+
+input[type=text]:focus {
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid rgba(81, 203, 238, 1);
+  outline: $none;
+}
+
+
+
+input[type=password] {
+  
+  width: $proc_100;
+height: 45px;
+border-radius: 5px;
+
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid gray;
+}
+
+input[type=password]:focus {
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid rgba(81, 203, 238, 1);
+  outline: $none;
+}
+
+#capslock{
+  display: $none;
+  color: $boja_crvena;
+}
+
+#login_dugme_div{
+	width:$proc_100; 
+	text-align: right;
+}
+
+
+#nazad{
+  float: left;
+}
+
+a:link {
+  color: $boja_bela;
+  text-decoration: $none;
+}
+
+/* visited link */
+a:visited {
+  color: $boja_bela;
+  text-decoration: $none;
+}
+
+/* mouse over link */
+a:hover {
+  color: $boja_bela;
+  text-decoration: $none;
+}
+
+/* selected link */
+a:active {
+  color: $boja_bela;
+  text-decoration: $none;
+}
+
+
+#klijenat_izm{
+	text-align: $centar;
+	padding-left: 0px;
+  padding-right: 0px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+ 
+
+ #login_box{
+	
+    max-width: $proc_100;
+}
+
+#regist_box{
+  
+    max-width: $proc_100;
+}
+
+
+}

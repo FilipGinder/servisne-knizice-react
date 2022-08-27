@@ -1,0 +1,66 @@
+@import "./variable.scss";
+
+.glv_slika{
+    padding-left: $padding_l_0;
+    padding-right: $padding_r_0;
+}
+.cela-sirina-boja{
+    background: $boja_pozadina;
+    color: $boja_bela;
+    }
+#div_nsl{
+    text-align: $centar;
+    padding-top: $padding_t_50;
+    padding-bottom: $padding_b_50;
+    }
+#usluge_div{
+    margin-top: $margin_t;
+    margin-bottom: $margin_b;
+    }
+.uslige{
+    text-align: $centar;
+    padding: $padding_20;
+    }
+#marke_vozila{
+    padding-top: $padding_t_70;
+    text-align: $centar;
+    }
+.marke{
+    margin: $margin_a;
+    }
+#mapa{
+    padding-top: $padding_t_70;
+    padding-left: $padding_l_0;
+    padding-right: $padding_r_0;
+    }
+.inline{
+    display: $display_inl;
+    }
+#cela_slika{
+    background-image: url(../slike/car-service.jpg);
+    background-size: $cover;
+    background-repeat: $no_repeat;
+    background-position: $centar;
+    background-attachment: $fixed;
+    height: $visina_500;
+    }
+
+
+#vozila_klijenta{
+    text-align: $centar;
+}
+.poz_rez{
+    margin-right: $margin_r_15;
+    }
+
+#navig{
+    position: $fixed;
+    top: $top_0;
+    width: $sirina_100;
+}
+#pretraga{
+    width: $sirina_100;
+}
+.sto{
+    width: $sirina_100;
+    }

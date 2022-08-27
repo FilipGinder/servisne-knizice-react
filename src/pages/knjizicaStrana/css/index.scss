@@ -1,0 +1,28 @@
+@import "./variable.scss";
+
+html,body{
+    height: $visina_100;
+}
+#root{
+    height: $visina_100;
+}
+#servisna_knjizica_div{
+    padding-top: $padding_t_80;
+    padding-bottom: $padding_b_80;
+    min-height: $visina_100;
+    }
+.poz_rez{
+    margin-right: $margin_r_15;
+    }
+.sto{
+    width: $sirina_100;
+    }
+#pretraga{
+    width: $sirina_100;
+    }
+.mid{
+    text-align: $centar;
+    }
+.accordion{
+    margin-bottom: $tripx;
+}
